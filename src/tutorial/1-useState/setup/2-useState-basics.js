@@ -1,7 +1,12 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
 
 const UseStateBasics = () => {
-  return <h2>useState basic example</h2>;
+  return (
+    <h2>
+      useState basic example
+    </h2>
+    <useState></useState>
+  );
 };
 
 export default UseStateBasics;
